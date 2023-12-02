@@ -8,7 +8,7 @@ class Widget(QMainWindow):
         self.ui.setupUi(self)
         self.ui.pushButton.clicked.connect(self, examle)
     def generate(self):
-        self.lable.setText('da')
+        self.lable.setText('YA')
 app = QApplication([])
 ex = Widget()
 ex.show()
